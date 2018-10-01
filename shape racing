@@ -1,0 +1,40 @@
+from turtle import *
+from random import randint
+
+speed = 10
+penup()
+goto(-140, 140)
+
+# tell us how many lines to draw
+for step in range(14):
+    write(step)
+    right(90)
+    forward(10)
+    pendown()
+    forward(150)
+    penup()
+    backward(160)
+    left(90)
+    forward(20)
+# tells us what shape and what colour and the behavior
+ada = Turtle()
+ada.color('red')
+ada.shape('turtle')
+
+ada.penup()
+ada.goto(-160,40
+         )
+ada.pendown()
+
+bob = Turtle()
+bob.color('green')
+bob.shape('square')
+
+bob.penup()
+bob.goto(-160,70)
+bob.pendown()
+
+#describes the shape and colour and where it starts
+micheal = Turtle()
+micheal.color = ('Black')
+micheal.shape('circle')
